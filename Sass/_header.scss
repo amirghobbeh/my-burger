@@ -47,7 +47,7 @@
 
   a {
     font-weight: 500;
-    color: #edf0f1;
+    color: $base-color;
     text-decoration: none;
     font-size: 1.2rem;
   }
@@ -81,6 +81,6 @@
   background-color: $red;
   margin: 1px 1px 20px 35px;
   padding: 7px 25px;
-  // border: #edf0f1 solid ;
+  cursor: pointer;
   border-radius: 25px;
 }

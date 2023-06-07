@@ -1,5 +1,5 @@
 .customers3 {
-    background-color: #f6eedf;
+    background-color: $base-color;
     position: relative;
     height: 500px;
     padding: 100px 0px 100px 0px;
@@ -35,7 +35,7 @@
         margin: 30px 1px 0px 0px;
         padding: 5px 30px;
         border-radius: 25px;
-        color: #edf0f1;
+        color: $base-color;
         cursor: pointer;
       }
     }

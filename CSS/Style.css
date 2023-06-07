@@ -40,7 +40,7 @@
 }
 .top_menu a {
   font-weight: 500;
-  color: #edf0f1;
+  color: #f6eedf;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -70,6 +70,7 @@
   background-color: #f64b3c;
   margin: 1px 1px 20px 35px;
   padding: 7px 25px;
+  cursor: pointer;
   border-radius: 25px;
 }
 
@@ -253,7 +254,7 @@
   margin: 30px 1px 0px 0px;
   padding: 5px 30px;
   border-radius: 25px;
-  color: #edf0f1;
+  color: #f6eedf;
   cursor: pointer;
 }
 
@@ -406,7 +407,7 @@
 .our-update .searchButton {
   background: #f64b3c;
   text-align: center;
-  color: #fff;
+  color: #f6eedf;
   border-radius: 0 50px 50px 0;
   cursor: pointer;
   font-size: 20px;
