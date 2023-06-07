@@ -27,49 +27,4 @@
     text-transform: capitalize;
   }
 }
-.our-update {
-  color: $red;
-  text-align: center;
-  padding: 10% 15%;
-  background-color: $base-color;
 
-  > h3 {
-    font-weight: 900;
-    font-size: 5rem;
-  }
-  > p {
-    padding: 0% 20%;
-  }
-
-  .search {
-    margin-top: 3%;
-    padding: 0% 20%;
-    position: relative;
-    display: flex;
-  }
-
-  .searchTerm {
-    text-align: left;
-    width: 100%;
-    padding: 2%;
-    // height: 20px;
-    border-radius: 50px 0 0 50px;
-    outline: none;
-    color: #c1ae9f;
-    background-color: #ffffff;
-  }
-
-  .searchTerm:focus {
-    color: $red;
-  }
-
-  .searchButton {
-    background: $red;
-    text-align: center;
-    color: $base-color;
-    border-radius: 0 50px 50px 0;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 2%;
-  }
-}

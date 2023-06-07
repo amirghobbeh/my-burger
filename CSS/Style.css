@@ -1,16 +1,14 @@
 .header {
   position: relative;
 }
-
-.logo {
+.header .logo {
   position: absolute;
   top: 10px;
   left: 35px;
   width: 70px;
   height: 70px;
 }
-
-.menu {
+.header .menu {
   display: flex;
   /* justify-content: space-between;    for when img in to the navbar */
   justify-content: flex-end;
@@ -25,7 +23,6 @@
   top: 0;
   width: 100%;
 }
-
 .header img {
   display: flex;
   margin: 0;
@@ -33,40 +30,37 @@
   height: 400px;
   padding: 0px, 0px, 0px, 0px;
 }
-
-.top_menu {
+.header .top_menu {
   display: flex;
   flex-direction: row;
 }
-.top_menu a {
+.header .top_menu a {
   font-weight: 500;
   color: #f6eedf;
   text-decoration: none;
   font-size: 1.2rem;
 }
-.top_menu li {
+.header .top_menu li {
   padding: 0px 10px;
 }
-
-.discription {
+.header .discription {
   position: absolute;
   flex-direction: column;
   top: 100px;
   align-content: center;
   color: #fff;
 }
-.discription h1 {
+.header .discription h1 {
   padding: 1px 1px 20px 35px;
   font-size: 3.5vw;
   left: 10px;
 }
-.discription p {
+.header .discription p {
   width: 45vw;
   padding: 1px 1px 20px 35px;
   font-size: 1.2rem;
 }
-
-.button {
+.header .button {
   background-color: #f64b3c;
   margin: 1px 1px 20px 35px;
   padding: 7px 25px;

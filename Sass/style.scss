@@ -1,5 +1,4 @@
-$red: #f64b3c;
-$base-color:#f6eedf;
+@import "variables";
 @import "header";
 @import "part1";
 @import "part2";
@@ -8,3 +7,4 @@ $base-color:#f6eedf;
 @import "part5";
 @import "part6";
 @import "part7";
+@import "footer";
