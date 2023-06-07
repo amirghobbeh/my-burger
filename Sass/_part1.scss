@@ -1,0 +1,93 @@
+.customers {
+  background-color: #f6eedf;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 5px;
+  h1 {
+    font-size: 2rem;
+    color: $red;
+    font-weight: 200;
+    margin: 30px auto 10px auto;
+  }
+  p {
+    font-size: 1.1rem;
+    color: $red;
+    width: 500px;
+    text-align: center;
+  }
+}
+
+#img-background-1 {
+  position: absolute;
+  top: 16%;
+  right: 7%;
+  width: 100px;
+  height: 113px;
+}
+#img-background-2 {
+  position: absolute;
+  bottom: 2%;
+  right: 25%;
+  scale: 50%;
+}
+#img-background-3 {
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+  scale: 50%;
+}
+#img-background-4 {
+  position: absolute;
+  bottom: 2%;
+  left: 25%;
+  scale: 50%;
+}
+#img-background-5 {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  scale: 50%;
+}
+#img-background-6 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  scale: 50%;
+}
+
+.creators {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 30px auto;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: $red;
+    font-weight: 200;
+    margin: 30px auto 10px auto;
+  }
+
+  span {
+    font-weight: 200;
+    margin: 30px auto 10px auto;
+    font-size: 1.1rem;
+    color: $red;
+    width: 500px;
+    text-align: center;
+  }
+}

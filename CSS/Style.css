@@ -73,7 +73,7 @@
   border-radius: 25px;
 }
 
-.customrs {
+.customers {
   background-color: #f6eedf;
   position: relative;
   display: flex;
@@ -81,6 +81,18 @@
   justify-content: flex-start;
   align-items: center;
   padding: 50px 5px;
+}
+.customers h1 {
+  font-size: 2rem;
+  color: #f64b3c;
+  font-weight: 200;
+  margin: 30px auto 10px auto;
+}
+.customers p {
+  font-size: 1.1rem;
+  color: #f64b3c;
+  width: 500px;
+  text-align: center;
 }
 
 #img-background-1 {
@@ -126,22 +138,6 @@
   scale: 50%;
 }
 
-.customrs h1,
-.creators h2 {
-  font-size: 2rem;
-  color: #f64b3c;
-  font-weight: 200;
-  margin: 30px auto 10px auto;
-}
-
-.customrs p,
-.creators span {
-  font-size: 1.1rem;
-  color: #f64b3c;
-  width: 500px;
-  text-align: center;
-}
-
 .creators {
   width: 100%;
   display: flex;
@@ -159,27 +155,28 @@
   border-radius: 100%;
 }
 .creators h2 {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  color: #f64b3c;
+  font-weight: 200;
+  margin: 30px auto 10px auto;
 }
 .creators span {
   font-weight: 200;
   margin: 30px auto 10px auto;
+  font-size: 1.1rem;
+  color: #f64b3c;
+  width: 500px;
+  text-align: center;
 }
 
-.customrs2,
-.customrs3 {
+.customers2 {
   background-color: #f64b3c;
   position: relative;
   height: 500px;
   padding: 100px 0px 100px 0px;
 }
 
-.customrs3 {
-  background-color: #f6eedf;
-}
-
-.best-berger-all,
-.big-berger-all {
+.best-berger-all {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -189,56 +186,75 @@
   align-content: center;
   padding: 30px 0px 30px 0px;
 }
-
-.big-berger-all {
-  flex-direction: row-reverse;
+.best-berger-all img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.best-berger-all span {
+  color: #edf0f1;
+  font-size: 1.2rem;
+}
+.best-berger-all h2 {
+  color: #edf0f1;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.best-berger-all .best-berger-text {
+  width: 45%;
+  line-height: 2;
+}
+.best-berger-all .best-berger-text button {
+  background-color: #ffffff;
+  margin: 30px 1px 0px 0px;
+  padding: 5px 30px;
+  border-radius: 25px;
+  color: #f64b3c;
+  cursor: pointer;
 }
 
-.best-berger-all img,
+.customers3 {
+  background-color: #f6eedf;
+  position: relative;
+  height: 500px;
+  padding: 100px 0px 100px 0px;
+}
+
+.big-berger-all {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 30px 0px 30px 0px;
+}
 .big-berger-all img {
   width: 300px;
   height: 300px;
   border-radius: 100%;
 }
-
-.best-berger-all span,
-.best-berger-all h2 {
-  color: #edf0f1;
-}
-
-.best-berger-all h2,
 .big-berger-all h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #f64b3c;
 }
-
-.best-berger-all span,
 .big-berger-all span {
   font-size: 1.2rem;
+  color: #f64b3c;
 }
-
-.best-berger-text,
-.big-berger-text {
+.big-berger-all .big-berger-text {
   width: 45%;
   line-height: 2;
 }
-
-.best-berger-text button,
-.big-berger-text button {
-  background-color: #ffffff;
+.big-berger-all .big-berger-text button {
+  background-color: #f64b3c;
   margin: 30px 1px 0px 0px;
   padding: 5px 30px;
   border-radius: 25px;
-}
-
-.big-berger-all span,
-.big-berger-all h2 {
-  color: #f64b3c;
-}
-
-.big-berger-text button {
-  background-color: #f64b3c;
   color: #edf0f1;
+  cursor: pointer;
 }
 
 .statistics {
@@ -260,14 +276,13 @@
   font-weight: 900;
   font-size: 3rem;
 }
-
-.grid-container-statistics {
+.statistics .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
   padding: 10px;
 }
-.grid-container-statistics > div {
+.statistics .grid-container > div {
   text-align: center;
   padding: 50px 50px;
   border: #fff solid 3px;
@@ -286,46 +301,40 @@
   font-weight: 900;
   font-size: 3rem;
 }
-
-.grid-container-popular-package {
+.popular-package .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   padding: 20px;
 }
-.grid-container-popular-package > div {
+.popular-package .grid-container > div {
   background-color: #ffffff;
   text-align: center;
   padding: 5% 25%;
 }
-
-.popular-package-span {
+.popular-package .popular-package-span {
   text-transform: uppercase;
   color: #f64b3c;
   font-weight: 900;
   font-size: 1rem;
   display: block;
 }
-
-.icon-berger-card {
+.popular-package .icon-berger-card {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding: 10% 0 10% 0;
 }
-
-.card-price {
+.popular-package .card-price {
   color: #f64b3c;
   display: block;
   font-weight: 900;
 }
-
-.card-p {
+.popular-package .card-p {
   color: #f64b3c;
 }
-
-.order-card {
+.popular-package .order-card {
   background-color: #f64b3c; /* Green */
   border-radius: 50px;
   color: #ffffff;
@@ -376,15 +385,13 @@
 .our-update > p {
   padding: 0% 20%;
 }
-
-.search {
+.our-update .search {
   margin-top: 3%;
   padding: 0% 20%;
   position: relative;
   display: flex;
 }
-
-.searchTerm {
+.our-update .searchTerm {
   text-align: left;
   width: 100%;
   padding: 2%;
@@ -393,12 +400,10 @@
   color: #c1ae9f;
   background-color: #ffffff;
 }
-
-.searchTerm:focus {
+.our-update .searchTerm:focus {
   color: #f64b3c;
 }
-
-.searchButton {
+.our-update .searchButton {
   background: #f64b3c;
   text-align: center;
   color: #fff;
@@ -417,53 +422,46 @@
   height: 450px;
   color: #fff;
 }
-
-.box1 {
+.footer .box1 {
   grid-area: box1;
 }
-
-.box2 {
+.footer .box2 {
   grid-area: box2;
 }
-
-.box3 {
+.footer .box3 {
   grid-area: box3;
 }
-
-.box4 {
+.footer .box4 {
   grid-area: box4;
 }
-
-.box1 {
+.footer .box1 {
   grid-area: box1;
 }
-
-.paragraph {
+.footer .paragraph {
   padding-left: 20px;
   margin-left: 10px;
 }
-.paragraph p {
+.footer .paragraph p {
   padding-bottom: 15px;
   cursor: pointer;
 }
-.paragraph h2 {
+.footer .paragraph h2 {
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
-
-.paragraph-sh {
+.footer .paragraph-sh {
   padding-left: 40px;
 }
-.paragraph-sh h2 {
+.footer .paragraph-sh h2 {
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
-.paragraph-sh p {
+.footer .paragraph-sh p {
   width: 80%;
   line-height: 1.5;
   padding-bottom: 15px;
 }
-.paragraph-sh ul i {
+.footer .paragraph-sh ul i {
   cursor: pointer;
   font-size: 22px;
   padding: 6px 6px;

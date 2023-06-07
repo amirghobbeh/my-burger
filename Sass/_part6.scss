@@ -1,0 +1,75 @@
+.barry-henderson {
+  position: relative;
+  text-align: center;
+  //   background-color: rgba(246, 75, 60, 0.5);
+  background-image: linear-gradient(
+      rgba(246, 75, 60, 0.8),
+      rgba(255, 0, 0, 0.8)
+    ),
+    url("../images/barryhenderson.png");
+  background-position: center;
+  color: #ffffff;
+  padding-bottom: 40%;
+
+  > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  > h3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}
+.our-update {
+  color: $red;
+  text-align: center;
+  padding: 10% 15%;
+  background-color: #f6eedf;
+
+  > h3 {
+    font-weight: 900;
+    font-size: 5rem;
+  }
+  > p {
+    padding: 0% 20%;
+  }
+
+  .search {
+    margin-top: 3%;
+    padding: 0% 20%;
+    position: relative;
+    display: flex;
+  }
+
+  .searchTerm {
+    text-align: left;
+    width: 100%;
+    padding: 2%;
+    // height: 20px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    color: #c1ae9f;
+    background-color: #ffffff;
+  }
+
+  .searchTerm:focus {
+    color: $red;
+  }
+
+  .searchButton {
+    background: $red;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 2%;
+  }
+}
