@@ -15,8 +15,12 @@
   p {
     font-size: 1.1rem;
     color: $red;
-    width: 500px;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .img-icon-background {
+    display: none;
   }
 }
 
@@ -89,5 +93,18 @@
     color: $red;
     width: 500px;
     text-align: center;
+  }
+  @media (max-width: 768px) {
+
+      width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 30px auto;
+
+    
   }
 }

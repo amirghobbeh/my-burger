@@ -23,6 +23,16 @@
   top: 0;
   width: 100%;
 }
+.header .menu .icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .header .menu .icon {
+    display: block;
+    color: #f64b3c;
+    font-size: 2rem;
+  }
+}
 .header img {
   display: flex;
   margin: 0;
@@ -43,6 +53,11 @@
 .header .top_menu li {
   padding: 0px 10px;
 }
+@media (max-width: 768px) {
+  .header .top_menu {
+    display: none;
+  }
+}
 .header .discription {
   position: absolute;
   flex-direction: column;
@@ -59,6 +74,11 @@
   width: 45vw;
   padding: 1px 1px 20px 35px;
   font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .header .discription p {
+    display: none;
+  }
 }
 .header .button {
   background-color: #f64b3c;
@@ -86,10 +106,14 @@
 .customers p {
   font-size: 1.1rem;
   color: #f64b3c;
-  width: 500px;
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .img-icon-background {
+    display: none;
+  }
+}
 #img-background-1 {
   position: absolute;
   top: 16%;
@@ -163,11 +187,22 @@
   width: 500px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .creators {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px auto;
+  }
+}
 
 .customers2 {
   background-color: #f64b3c;
   position: relative;
-  height: 500px;
   padding: 100px 0px 100px 0px;
 }
 
@@ -189,6 +224,7 @@
 .best-berger-all span {
   color: #edf0f1;
   font-size: 1.2rem;
+  display: block;
 }
 .best-berger-all h2 {
   color: #edf0f1;
@@ -207,11 +243,42 @@
   color: #f64b3c;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .best-berger-all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 30px 0px 30px 0px;
+  }
+  .best-berger-all .best-berger-text {
+    width: 100%;
+    line-height: 2;
+  }
+  .best-berger-all .best-berger-text button {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 5px 30px;
+    border-radius: 25px;
+    color: #f64b3c;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  .best-berger-all h2 {
+    text-align: center;
+  }
+  .best-berger-all span {
+    text-align: center;
+    padding: 0% 5%;
+  }
+}
 
 .customers3 {
   background-color: #f6eedf;
   position: relative;
-  height: 500px;
   padding: 100px 0px 100px 0px;
 }
 
@@ -238,6 +305,7 @@
 .big-berger-all span {
   font-size: 1.2rem;
   color: #f64b3c;
+  display: block;
 }
 .big-berger-all .big-berger-text {
   width: 45%;
@@ -250,6 +318,38 @@
   border-radius: 25px;
   color: #f6eedf;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .big-berger-all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 30px 0px 30px 0px;
+  }
+  .big-berger-all .big-berger-text {
+    width: 100%;
+    line-height: 2;
+  }
+  .big-berger-all .big-berger-text button {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 5px 30px;
+    border-radius: 25px;
+    color: #f64b3c;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  .big-berger-all h2 {
+    text-align: center;
+  }
+  .big-berger-all span {
+    text-align: center;
+    padding: 0% 5%;
+  }
 }
 
 .statistics {
@@ -283,6 +383,17 @@
   border: #fff solid 3px;
   border-radius: 50%;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .statistics p {
+    display: none;
+  }
+  .statistics .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    gap: 10px;
+  }
 }
 
 .popular-package {
@@ -341,6 +452,12 @@
   margin: 10px 2px;
   cursor: pointer;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .popular-package .grid-container {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
 }
 
 .barry-henderson {
