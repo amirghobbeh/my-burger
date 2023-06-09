@@ -336,12 +336,7 @@
     line-height: 2;
   }
   .big-berger-all .big-berger-text button {
-    background-color: #ffffff;
     margin: auto;
-    padding: 5px 30px;
-    border-radius: 25px;
-    color: #f64b3c;
-    cursor: pointer;
     display: flex;
     justify-content: center;
   }
@@ -520,6 +515,18 @@
   cursor: pointer;
   font-size: 20px;
   padding: 2%;
+}
+@media (max-width: 768px) {
+  .our-update > p {
+    display: none;
+  }
+  .our-update > h3 {
+    padding-bottom: 5%;
+    font-size: 3rem;
+  }
+  .our-update .search {
+    padding: 0;
+  }
 }
 
 .footer {

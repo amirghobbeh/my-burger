@@ -43,6 +43,20 @@
     font-size: 20px;
     padding: 2%;
   }
+   
+  @media (max-width: 768px) {
+   > p {
+    display: none;
+   }
+   > h3 {
+    padding-bottom: 5%;
+    font-size: 3rem;
+   }
+.search{
+  padding: 0;
+}
+  
+  }
 }
 
 
