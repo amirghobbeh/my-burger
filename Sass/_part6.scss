@@ -9,22 +9,18 @@
     url("../images/barryhenderson.png");
   background-position: center;
   color: #ffffff;
-  padding-bottom: 40%;
+  // padding-bottom: 40%;
 
-  > p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
+  .text > p {
+    text-align: center;
+    padding: 10% 10% 0 10%;
+    font-size: 1rem;
+    line-height: 1.5;
   }
-  > h3 {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    text-transform: capitalize;
+  .text > h3 {
+    text-align: center;
+    padding: 10% 10%;
+    font-size: 2rem;
   }
 }
 

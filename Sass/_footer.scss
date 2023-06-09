@@ -1,34 +1,17 @@
 // for grid box display
 .footer {
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-areas: "box1 box1 box2 box3 box4";
   padding-top: 90px;
+  padding-bottom: 5%;
   background-color: #222222;
-  height: 450px;
   color: #fff;
 
-  .box1 {
-    grid-area: box1;
-  }
-  .box2 {
-    grid-area: box2;
-  }
-  .box3 {
-    grid-area: box3;
-  }
-  .box4 {
-    grid-area: box4;
-  }
-  .box1 {
-    grid-area: box1;
+  .grid-container {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    padding: 10px;
   }
 
   .paragraph {
-    // width: 20%;
-    padding-left: 20px;
-    margin-left: 10px;
-
     p {
       padding-bottom: 15px;
       cursor: pointer;
@@ -61,6 +44,24 @@
       border-radius: 100%;
       width: 32px;
       height: 32px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    padding-top: 10px;
+    .paragraph-sh {
+      padding-left: 0;
+      margin-bottom: 3%;
+      p {
+        width: 100%;
+        line-height: 1.5;
+        padding-bottom: 15px;
+      }
     }
   }
 }

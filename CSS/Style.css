@@ -6,7 +6,7 @@
   top: 10px;
   left: 35px;
   width: 70px;
-  height: 70px;
+  height: 80px;
 }
 .header .menu {
   display: flex;
@@ -22,6 +22,8 @@
   left: 0;
   top: 0;
   width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 .header .menu .icon {
   display: none;
@@ -466,22 +468,17 @@
   background-image: linear-gradient(rgba(246, 75, 60, 0.8), rgba(255, 0, 0, 0.8)), url("../images/barryhenderson.png");
   background-position: center;
   color: #ffffff;
-  padding-bottom: 40%;
 }
-.barry-henderson > p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
+.barry-henderson .text > p {
+  text-align: center;
+  padding: 10% 10% 0 10%;
+  font-size: 1rem;
+  line-height: 1.5;
 }
-.barry-henderson > h3 {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  text-transform: capitalize;
+.barry-henderson .text > h3 {
+  text-align: center;
+  padding: 10% 10%;
+  font-size: 2rem;
 }
 
 .our-update {
@@ -526,32 +523,15 @@
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-areas: "box1 box1 box2 box3 box4";
   padding-top: 90px;
+  padding-bottom: 5%;
   background-color: #222222;
-  height: 450px;
   color: #fff;
 }
-.footer .box1 {
-  grid-area: box1;
-}
-.footer .box2 {
-  grid-area: box2;
-}
-.footer .box3 {
-  grid-area: box3;
-}
-.footer .box4 {
-  grid-area: box4;
-}
-.footer .box1 {
-  grid-area: box1;
-}
-.footer .paragraph {
-  padding-left: 20px;
-  margin-left: 10px;
+.footer .grid-container {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  padding: 10px;
 }
 .footer .paragraph p {
   padding-bottom: 15px;
@@ -583,6 +563,25 @@
   border-radius: 100%;
   width: 32px;
   height: 32px;
+}
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .footer .paragraph-sh {
+    padding-left: 0;
+    margin-bottom: 3%;
+  }
+  .footer .paragraph-sh p {
+    width: 100%;
+    line-height: 1.5;
+    padding-bottom: 15px;
+  }
 }
 
 /*# sourceMappingURL=Style.css.map */

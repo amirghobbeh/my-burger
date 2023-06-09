@@ -1,15 +1,18 @@
 .header {
   position: relative;
+ 
 
   .logo {
     position: absolute;
     top: 10px;
     left: 35px;
     width: 70px;
-    height: 70px;
+    height: 80px;
+  
   }
 
   .menu {
+ 
     display: flex;
     /* justify-content: space-between;    for when img in to the navbar */
     justify-content: flex-end;
@@ -33,6 +36,8 @@
     .icon {
       display: none;
     }
+    position:fixed;
+    z-index: 10;
     @media (max-width: 768px) {
 
       .icon {
@@ -54,6 +59,7 @@
   .top_menu {
     display: flex;
     flex-direction: row;
+
 
     a {
       font-weight: 500;
