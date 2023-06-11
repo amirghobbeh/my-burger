@@ -30,9 +30,11 @@
 }
 @media (max-width: 768px) {
   .header .menu .icon {
-    display: block;
+    display: flex;
+    flex-direction: row;
     color: #f64b3c;
     font-size: 2rem;
+    cursor: pointer;
   }
 }
 .header img {
@@ -58,6 +60,17 @@
 @media (max-width: 768px) {
   .header .top_menu {
     display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+  }
+  .header .top_menu li {
+    padding: 2% 0 2% 0;
   }
 }
 .header .discription {
@@ -588,6 +601,10 @@
     width: 100%;
     line-height: 1.5;
     padding-bottom: 15px;
+  }
+  .footer .paragraph {
+    border-top: solid 1px #f64b3c;
+    border-spacing: 10px;
   }
 }
 
