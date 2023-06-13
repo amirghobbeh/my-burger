@@ -1,0 +1,6 @@
+@mixin position($top-bottom,$left-right,$vertical,$horizontal,$scale-x,$scale-y){
+    position: absolute;
+    #{$top-bottom}: $vertical;
+    #{$left-right}: $horizontal;
+    transform: scale($scale-x,$scale-y);
+}

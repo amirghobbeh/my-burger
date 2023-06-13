@@ -131,45 +131,44 @@
 }
 #img-background-1 {
   position: absolute;
-  top: 16%;
-  right: 7%;
-  width: 100px;
-  height: 113px;
+  top: 2%;
+  right: 3%;
+  transform: scale(40%, 40%);
 }
 
 #img-background-2 {
   position: absolute;
   bottom: 2%;
   right: 25%;
-  scale: 50%;
+  transform: scale(50%, 50%);
 }
 
 #img-background-3 {
   position: absolute;
   bottom: 30%;
   right: 0;
-  scale: 50%;
+  transform: scale(50%, 50%);
 }
 
 #img-background-4 {
   position: absolute;
   bottom: 2%;
   left: 25%;
-  scale: 50%;
+  transform: scale(50%, 50%);
 }
 
 #img-background-5 {
   position: absolute;
   bottom: 50%;
   left: 0;
-  scale: 50%;
+  transform: scale(50%, 50%);
 }
 
 #img-background-6 {
   position: absolute;
   top: 10%;
   left: 10%;
-  scale: 50%;
+  transform: scale(50%, 50%);
 }
 
 .creators {
@@ -297,6 +296,48 @@
   padding: 100px 0px 100px 0px;
 }
 
+#img-customers3-background-1 {
+  position: absolute;
+  top: -8%;
+  right: 50%;
+  transform: scale(-50%, 50%);
+}
+
+#img-customers3-background-2 {
+  position: absolute;
+  bottom: 2%;
+  right: 55%;
+  transform: scale(-50%, 50%);
+}
+
+#img-customers3-background-3 {
+  position: absolute;
+  top: 20%;
+  left: -2%;
+  transform: scale(-50%, 50%);
+}
+
+#img-customers3-background-4 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  transform: scale(50%, 50%);
+}
+
+#img-customers3-background-5 {
+  position: absolute;
+  bottom: -7%;
+  right: 0%;
+  transform: scale(-50%, 50%);
+}
+
+#img-customers3-background-6 {
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+  transform: scale(-50%, 50%);
+}
+
 .big-berger-all {
   width: 100%;
   display: flex;
@@ -410,12 +451,50 @@
   background-color: #f6eedf;
   text-align: center;
   padding-bottom: 6%;
+  position: relative;
+}
+.popular-package #img-popular-background-1 {
+  position: absolute;
+  top: 0%;
+  right: 20%;
+  transform: scale(50%, 50%);
+}
+.popular-package #img-popular-background-2 {
+  position: absolute;
+  bottom: 2%;
+  right: 55%;
+  transform: scale(-50%, 50%);
+}
+.popular-package #img-popular-background-3 {
+  position: absolute;
+  top: 20%;
+  left: -2%;
+  transform: scale(-50%, 50%);
+}
+.popular-package #img-popular-background-4 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  transform: scale(50%, 50%);
+}
+.popular-package #img-popular-background-5 {
+  position: absolute;
+  bottom: -7%;
+  right: 0%;
+  transform: scale(-50%, 50%);
+}
+.popular-package #img-popular-background-6 {
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+  transform: scale(-50%, 50%);
 }
 .popular-package h3 {
   text-transform: capitalize;
   color: #f64b3c;
   font-weight: 900;
   font-size: 3rem;
+  padding: 5% 0 5% 0;
 }
 .popular-package .grid-container {
   display: grid;
@@ -494,6 +573,43 @@
   text-align: center;
   padding: 10% 15%;
   background-color: #f6eedf;
+  position: relative;
+}
+.our-update #img-update-background-1 {
+  position: absolute;
+  top: 0%;
+  right: 20%;
+  transform: scale(50%, 50%);
+}
+.our-update #img-update-background-2 {
+  position: absolute;
+  bottom: 2%;
+  right: 55%;
+  transform: scale(-50%, 50%);
+}
+.our-update #img-update-background-3 {
+  position: absolute;
+  top: 20%;
+  left: -2%;
+  transform: scale(-50%, 50%);
+}
+.our-update #img-update-background-4 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  transform: scale(50%, 50%);
+}
+.our-update #img-update-background-5 {
+  position: absolute;
+  bottom: -7%;
+  right: 0%;
+  transform: scale(-50%, 50%);
+}
+.our-update #img-update-background-6 {
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+  transform: scale(-50%, 50%);
 }
 .our-update > h3 {
   font-weight: 900;

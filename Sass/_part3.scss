@@ -3,6 +3,24 @@
   position: relative;
   padding: 100px 0px 100px 0px;
 }
+#img-customers3-background-1 {
+  @include position("top", "right", -8%, 50%, -50%, 50%);
+}
+#img-customers3-background-2 {
+  @include position("bottom", "right", 2%, 55%, -50%, 50%);
+}
+#img-customers3-background-3 {
+  @include position("top", "left", 20%, -2%, -50%, 50%);
+}
+#img-customers3-background-4 {
+  @include position("top", "right", 10%, 5%, 50%, 50%);
+}
+#img-customers3-background-5 {
+  @include position("bottom", "right", -7%, 0%, -50%, 50%);
+}
+#img-customers3-background-6 {
+  @include position("bottom", "left", 0%, 7%, -50%, 50%);
+}
 .big-berger-all {
   width: 100%;
   display: flex;
