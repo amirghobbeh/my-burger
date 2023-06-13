@@ -57,7 +57,7 @@
     text-transform: uppercase;
   }
   @media (max-width: 768px) {
-    .grid-container{
+    .grid-container {
       grid-template-columns: auto;
       gap: 10px;
     }

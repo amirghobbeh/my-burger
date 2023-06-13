@@ -21,7 +21,7 @@
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto  auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     padding: 10px;
 
@@ -39,7 +39,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: auto ;
+      grid-template-columns: auto;
       padding: 10px;
       gap: 10px;
     }
